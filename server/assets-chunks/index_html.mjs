@@ -1,7 +1,7 @@
-<!DOCTYPE html><html lang="en" data-beasties-container><head>
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
   <meta charset="utf-8">
   <title>TodoApp</title>
-  <base href="/">
+  <base href="/angular-todo-app/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-5INURTSO.css"><style ng-app-id="ng">.todo-container[_ngcontent-ng-c1664204434]{width:320px;margin:80px auto auto;text-align:center;padding:25px;border:2px solid #ccc;border-radius:10px;background-color:#fff;box-shadow:0 8px 16px #0000001a}input[_ngcontent-ng-c1664204434]{padding:5px;margin-bottom:10px;width:80%}button[_ngcontent-ng-c1664204434]{margin-left:5px;padding:5px 10px;cursor:pointer}ul[_ngcontent-ng-c1664204434]{list-style:none;padding:0}li[_ngcontent-ng-c1664204434]{margin:10px 0}.task-item[_ngcontent-ng-c1664204434]{display:flex;justify-content:space-between;align-items:center;margin:8px 0;background-color:#f9f9f9;padding:8px 12px;border-radius:6px;border:1px solid #ddd}input[_ngcontent-ng-c1664204434]{padding:8px;margin-bottom:10px;width:80%;border:1px solid #ccc;border-radius:4px}button[_ngcontent-ng-c1664204434]{margin-left:5px;padding:6px 12px;border:none;background-color:#007bff;color:#fff;border-radius:4px;cursor:pointer;transition:background-color .3s}button[_ngcontent-ng-c1664204434]:hover{background-color:#0056b3}body[_ngcontent-ng-c1664204434]{background:linear-gradient(to right,#ece9e6,#fff);font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif;margin:0;padding:0}[_nghost-ng-c1664204434]{display:block;height:100vh;background:linear-gradient(to right,#dfe9f3,#fff)}</style></head>
@@ -10,4 +10,4 @@
   <app-root ng-version="19.2.8" ngh="1" ng-server-context="ssg"><app-todo-app _nghost-ng-c1664204434 ngh="0"><div _ngcontent-ng-c1664204434 class="todo-container"><h1 _ngcontent-ng-c1664204434>My To-Do App</h1><form _ngcontent-ng-c1664204434 novalidate class="ng-untouched ng-pristine ng-valid" jsaction="submit:;"><input _ngcontent-ng-c1664204434 placeholder="Enter new task" name="task" class="ng-untouched ng-pristine ng-valid" value jsaction="input:;blur:;compositionstart:;compositionend:;"><button _ngcontent-ng-c1664204434 disabled>Add Task</button></form><ul _ngcontent-ng-c1664204434><!----></ul></div></app-todo-app></app-root>
 <script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-D2DUWHYV.js" type="module"></script>
 
-<script id="ng-state" type="application/json">{"__nghData__":[{"t":{"8":"t0"},"c":{"8":[]}},{}]}</script></body></html>
+<script id="ng-state" type="application/json">{"__nghData__":[{"t":{"8":"t0"},"c":{"8":[]}},{}]}</script></body></html>`;
