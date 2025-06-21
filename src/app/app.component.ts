@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';  // 👈 for *ngIf, *ngFor, [ngStyle], etc.
+import { FormsModule } from '@angular/forms';     // 👈 for [(ngModel)]
+
+import { TodoAppComponent } from './todo-app/todo-app.component'; // 👈 import your generated component
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [CommonModule, FormsModule, TodoAppComponent], // 👈 add here
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo-app';
+  title = 'my-first-app';
 }
